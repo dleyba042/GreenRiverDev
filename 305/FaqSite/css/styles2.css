@@ -1,0 +1,109 @@
+html{
+    height:100%;
+}
+
+
+
+
+
+
+.trans-block{
+    background:rgba(0,0,0,.8);
+    width:75%;
+    margin:auto;
+}
+
+body{
+    min-height: 100vh;
+    background: rgb(120,120,120) center center scroll;
+    background-size: cover;
+    overflow: scroll;
+    color: #28a745;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.row{
+    margin-top: -4rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+header{
+    margin-top:3rem;
+    font-family:'Abril Fatface', cursive;
+}
+footer{
+    padding-bottom:4rem;
+    font-family:'Abril Fatface', cursive;
+
+}
+
+h2{
+    font-family:'Abril Fatface', cursive;
+}
+
+h1{
+    text-shadow: 2px 2px #ffffff;
+    font-size: 4rem;
+}
+a{
+    color: #28a745;
+    font-weight: 600;
+}
+
+.hide-me{
+    display: none;
+}
+
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+.col-pad{
+    padding-top: 4rem;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    header{
+        margin-bottom:4rem;
+    }
+
+    h1{
+        font-size:3rem;
+    }
+
+    footer{
+        margin-top: 4rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    h1{
+        font-size:2rem;
+    }
+
+    .row{
+        margin-top: -1rem;
+    }
+
+    .col-pad{
+        padding-top: 2rem;
+    }
+
+
+}

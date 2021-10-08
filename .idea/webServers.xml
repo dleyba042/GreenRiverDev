@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f04a7c44-2bf7-4980-9b96-fb0f3ce6c544" name="GreenRiverDev" url="https://dleyba-brown.greenriverdev.com">
+        <fileTransfer rootFolder="/home/dleybabr/public_html" accessType="SFTP" host="dleyba-brown.greenriverdev.com" port="18765" sshConfigId="d14a7102-6bd0-4f33-bed9-321e4eca6943" sshConfig="dleybabr@dleyba-brown.greenriverdev.com:18765 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
